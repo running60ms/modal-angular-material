@@ -1,11 +1,9 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {TableTestComponent} from './table-test/table-test.component';
+import {PlayersSelectedComponent} from './players-selected/players-selected.component';
 
 const routes: Routes = [
-  {
-    path: 'table', component: TableTestComponent
-  }
+  {path: 'players-selected', component: PlayersSelectedComponent}
 ];
 
 @NgModule({
